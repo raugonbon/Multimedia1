@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Actividad3</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txt_nombre">Nombre:</string>
+    <string name="introduzca_el_nombre">Introduzca el nombre</string>
+    <string name="fecha_nac">Fecha Nac: ?</string>
+    <string name="modalidad_ciclo">Modalidad: ? CIclo: ?</string>
+    <string name="leer_datos">Leer Datos</string>
+    <string name="obtener_edad_y_grupo">Obtener Edad y Grupo</string>
+    <string name="resultado">Resultado</string>
+    <string name="guardad_en_historico">Guardad en Historico</string>
+    <string name="fechatxt">\?/?/?</string>
+    <string name="introduzca_los_datos_del_alumno">Introduzca los datos del alumno:</string>
+    <string name="nombre_alumno">Nombre Alumno</string>
+    <string name="introducir_la_fecha">Introducir la Fecha</string>
+    <string name="presencial">Presencial</string>
+    <string name="semipresencial">Semipresencial</string>
+    <string name="asir">ASIR</string>
+    <string name="daw">DAW</string>
+    <string name="dam">DAM</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="filename">saveHistorico.txt</string>
+    <string name="mesHistorico">Mes</string>
+    <string name="diaHistorico">Dia</string>
+    <string name="anyoHistorico">Anyo</string>
+    <string name="nombreHistorico">Nombre Apellido</string>
+    <string name="tipo_cicloHistorico">Tipo ciclo</string>
+    <string name="cicloHistorico">Ciclo</string>
+    <string name="sah_txt_nombre_alumno">Nombre Alumno</string>
+    <string name="sah_txt_fecha_nacimiento">Fecha Nacimiento</string>
+    <string name="sah_txt_grupo_x_aula_x_ciclo_tipociclo">Grupo Aula Ciclo TipoCiclo</string>
+    <string name="no_existe_fichero">Fichero no existe</string>
+    <string name="snackbar_content">"PRUEBA PRUEBA PRUEBA PRUEBA PRUEBA PRUEBA "</string>
+</resources>

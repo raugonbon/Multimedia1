@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--(c) Raúl Enrique González Bondarchuk -->
+<!-- Esto es un prototipo del item cual nos añadimos en la lista Historico -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/itemLayout"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_margin="10dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:background="#66DCFA"
+    android:clickable="true"
+    android:focusable="false"
+    android:onClick="onItemClick"
+    android:orientation="horizontal"
+    tools:ignore="KeyboardInaccessibleWidget">
+
+    <!-- Fecha -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/mesHistorico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mesHistorico"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/diaHistorico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/diaHistorico"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/anyoHistorico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/anyoHistorico"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Nombre y Tipo Ciclo -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nombreHistorico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nombreHistorico"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tipoCicloHistorico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tipo_cicloHistorico"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <!-- Ciclo -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/cicloHistorico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cicloHistorico"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
